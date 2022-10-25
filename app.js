@@ -20,4 +20,14 @@ else{
     calcular();
 }
 
+while (true){
+    let edad = +prompt("Ingresa tu edad");
+    
+    if(edad>18){
+    alert("Sos mayor de edad, avanzaremos con los medios de pago")
+     break
+    } else if (num<18){
+     break
+    }
+}
  
